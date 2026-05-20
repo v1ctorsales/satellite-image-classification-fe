@@ -1,0 +1,36 @@
+:root {
+  --bg: #f9f9f7;
+  --surface: #ffffff;
+  --border: #e5e5e0;
+  --border-active: #1a1a1a;
+  --text-primary: #1a1a1a;
+  --text-secondary: #888880;
+  --accent: #2563eb;
+  --accent-light: #eff6ff;
+  --error: #dc2626;
+  --success: #16a34a;
+  --radius: 12px;
+  --font-sans: "DM Sans", sans-serif;
+  --font-mono: "DM Mono", monospace;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+}
