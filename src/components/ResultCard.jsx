@@ -1,7 +1,7 @@
 import styles from "./ResultCard.module.css";
 
 const CLASS_COLORS = {
-  Agriculture: "#793d16",
+  Agriculture: "#b48a00",
   Vegetation: "#15803d",
   Urban: "#a10000",
   Water: "#0891b2",

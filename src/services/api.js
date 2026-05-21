@@ -12,12 +12,7 @@ function buildForm(file) {
 
 const headers = { "Content-Type": "multipart/form-data" };
 
-export async function classifyImage(file, model = "blackbox") {
-  const routes = {
-    blackbox: "/sendImage",
-    whitebox: "/sendImage/whitebox",
-    compare: "/sendImage/compare",
-  };
-  const { data } = await api.post(routes[model], buildForm(file), { headers });
+export async function classifyImage(file) {
+  const { data } = await api.post("/predict", buildForm(file), { headers });
   return data;
 }
