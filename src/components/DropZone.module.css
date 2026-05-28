@@ -50,7 +50,6 @@
 .dropzoneLabel {
   font-size: 15px;
   font-weight: 500;
-  color: var(--text-primary);
 }
 
 .dropzoneSublabel {
@@ -114,7 +113,6 @@
   color: white;
   border: none;
   border-radius: 8px;
-  font-family: var(--font-sans);
   font-size: 14px;
   font-weight: 500;
   cursor: pointer;

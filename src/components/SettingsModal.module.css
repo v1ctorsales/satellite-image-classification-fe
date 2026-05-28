@@ -81,7 +81,6 @@
   font-size: 14px;
   font-weight: 500;
   color: var(--text-primary);
-  font-family: var(--font-sans);
 }
 
 .optDesc {
